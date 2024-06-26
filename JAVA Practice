@@ -1,0 +1,17 @@
+class Program_2{
+	void validateBrowser(String brw){
+		if(brw.equals("Chrome")||brw.equals("IE")||brw.equals("Edge"))
+		{
+			System.out.println(brw + "  is Valid Browser");
+		}
+		else{
+			System.out.println(brw + "  is Invalid Browser");
+		}
+	}
+	public static void main(String []args){
+		Program_2 program_2 = new Program_2();
+		program_2.validateBrowser("chrome");
+		program_2.validateBrowser("Abc");
+		program_2.validateBrowser("Safari");
+		}
+}
